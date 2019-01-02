@@ -592,9 +592,10 @@ cursor: pointer;
 		color: white;
 
 	}
-	@media screen and (min-width: 1025px){
+	}
+	@media screen and (max-width: 1025px){
 		.menu-ft ul li{
-			padding-right: 40px;
+			padding-right: 47px;
 		}
 	}
 	@media screen and (max-width: 1024px){
