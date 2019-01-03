@@ -318,7 +318,6 @@ margin-right: 5px;
 	}
 
 	.title-content{
-		width: 100%;
 		height: 50px;
 		border-bottom: 1px solid #cccc;
 	}
@@ -418,7 +417,7 @@ cursor: pointer;
 	}
 	.title-post{
 		font-size: 17px;
-		height: 20px;
+		height: 38px;
 		font-weight: 500;
 	}
 	.text-author{
@@ -470,9 +469,6 @@ cursor: pointer;
 			margin: 15px;
 			margin-top: -4px;
 		}
-		.view-all{
-			margin-right: 25px;
-		}
 
 	}
 
@@ -496,13 +492,7 @@ cursor: pointer;
 		.title-heading{
 			font-size: 25px;
 		}
-		.title-post{
-			    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-		}
+		
 		
 	}
 
@@ -592,10 +582,9 @@ cursor: pointer;
 		color: white;
 
 	}
-	}
-	@media screen and (max-width: 1025px){
+	@media screen and (min-width: 1025px){
 		.menu-ft ul li{
-			padding-right: 47px;
+			padding-right: 40px;
 		}
 	}
 	@media screen and (max-width: 1024px){
