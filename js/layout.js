@@ -33,6 +33,30 @@ closeButton.onclick = function() {
     layerOpacity.style.marginLeft = "-100%";
     document.getElementsByTagName('body')[0].style.overflow = "unset";
 }
+// Mobile: Menu Accordion
+var dropdown_menu = document.getElementsByClassName("dropdown-menu");
+var iconPlus = document.getElementsByClassName("icon-plus");
+var iconMinus = document.getElementsByClassName("icon-minus");
+
+for (let i = 0; i < nav_item.length; i++) {
+    nav_item[i].addEventListener("click", function() {
+        var current = nav_item[i];
+        var list_menu_active = document.getElementsByClassName('active');
+        if (list_menu_active.length) {
+            for (let i = 0; i < list_menu_active.length; i++) {
+                if (current == list_menu_active[i]) { continue };
+                list_menu_active[i].classList.remove('active');
+            }
+        }
+        
+        if(current.classList.contains('active')){
+           current.classList.remove('active'); 
+        }
+        else {
+            current.classList.add('active');
+        }
+    })
+}
 // Go to Top
 var toTop = document.getElementById("goto-top");
   
