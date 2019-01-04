@@ -1,98 +1,201 @@
-.banner1{
-	height: 100px;
-	background-image: url('../images/chi-tiet/banner1.png');
+* {
+	margin: 0;
 }
-.category-banner{
-	max-width: 1000px;
-	margin: auto;
-	text-transform: uppercase;
-	color: white;
-	font-size: 13;
-	font-weight: 400;
-	padding-top: 10px;
+body{
+	margin: 0px;
+	padding: 0;
+	font-family: Roboto;
 }
-.banner1 h2{
-	text-align: center;
-	text-transform: uppercase;
-	color: white;
+/* Fonts */
+@font-face {
+	font-family: Roboto-Regular;
+	src: url('../fonts/Roboto-Regular.ttf')
 }
-.content-box{
-	max-width: 1000px;
-	height: 1000px;
-	padding-top: 40px;
-	margin: auto;
-}
-.content-left{
-	width: 70%;
-	height: 400px;	
 
-	float: left;
-
+@font-face {
+	font-family: Roboto-Medium;
+	src: url('../fonts/Roboto-Medium.ttf');
 }
-.content-right{
-	width: 27%;
-	height: 400px;
-	float: right;
+
+@font-face {
+	font-family: Roboto-Bold;
+	src: url('../fonts/Roboto-Bold.ttf');
+}
+#banner{
+	    background-image: url('../images/chi-tiet/banner1.png');
+	    height: 99px;
+	    background-position: center;
+    background-size: cover;
+}
+.banner_container{
+	max-width: 1140px;
+	margin: auto;
 	
 }
-.title-post{
+.breadcrumb{
+	padding-top: 10px;
+}
+.breadcrumb div{
+color: white;
+text-transform: uppercase;
+display: inline;
+font-size: 13px;
+
+
+}
+.breadcrumb div a{
+	text-decoration: none;
+	color: white;
+}
+.title{
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 8px;
+}
+.content{
+	height: auto;
+	background-color: #f1f1f1;
+}
+.container{
+	max-width: 1140px;
+	height:auto;
+	margin: auto;
+	padding-top: 20px;
+
+
+}
+.container_top{
+	display: flex;
+justify-content: flex-start;
+}
+.container_left{
+	width: 72%;
+	height: auto;
+
+	
+}
+.panel_heading{
 	width: 100%;
 	height: 50px;
 	background-color: #f7f8fa;
-	padding-top: 5px;
+	display: flex;
+	justify-content: flex-start;
 }
-.post-detail{
-	background-color: #fff;
+.info_athour{
+	width: 70%;	
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+.img_athour{
+	width: 40px;	
+	height: 40px;	
+	border:1px solid #dddddd;
+	border-radius: 50%;
+	background-color: red;
+	margin: 5px;
+	margin-left: 20px;
+}
+.name_athour{
+padding-top: 18px;
+font-size: 13px;
+color: #00a888;
+}
+.view_favo{
+	width: 30%;	
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 18px;
+	font-size: 13px;
+	color: #999999;
+
+}
+.view{
+
+}
+.panel_body{
 	width: 100%;
 	height: auto;
+	background-color: #fff;
 }
-.panel-heading{
+.container_right{
+	width: 21%;
+	height: auto;
+
+	margin: auto;
+}
+.news{
 	width: 100%;
-	height: 50px;
-	border-bottom:  1px solid #dddddd; 
+	height: 350px;
+background-color: #fff;
+padding: 15px 20px;
+}
+.news_title{
+	width: 100%;
+	height: 45px;
+	border-bottom: 1px solid #dddddd;
 	font-size: 17px;
 	font-weight: 450;
 }
-.sibar{
+.news_content ul{
+	list-style: none;
+	padding: 0;
+}
+.news_content ul li{
+	padding-top: 10px;
+	
+}
+.news_content ul li a{
+text-decoration: none;
+color: #58bba4;
+}
+.news_content ul li a:hover{
+color: #ff9900;
+}
+.tab_line{
+	content: "";
+	display: block;
+	border-bottom: 3px solid #ffab4c;
+	width: 40px;
+	margin-top: -3px;
+}
+.adv img{
+	width: 300px	;
+	border: 1px solid #dddddd;
+	
+}
+#adv img{
+	padding-top: 20px;
+	width: 280px;
+}
+.comment-form{
 	width: 100%;
 	background-color: #fff;
-	padding: 15px;
+	margin-top: 20px;
 }
-.panel-body{
-
-}
-.info{
-	width: 70%;
-	height: 50px;
-	
-	float: left;
-}
-.viewpost{
-	width: 30%;
-	height: 50px;
-	float: right;
-	margin-top: 14px;
-	text-align: right;
-}
-.viewpost img{
-
-}
-.img-info{
-	width: 40px;
-	height: 40px;
-	border: 1px solid #dddddd;
-	border-radius: 50%;
+.comment-form h4{
+	padding-top: 10px;
 	margin-left: 10px;
-	background-color: red;
-	float: left;
 }
-.name-author{
-	float: left;
-	margin-left: 20px;
-	margin-top: 14px;
-	font-size: 13px;
-	color: #00a888;
+.body_news{
+	width: 80%;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 35px;
+	font-size: 14px;
 }
-.adv{
-	padding-top: 20px;
+.body_news h3{
+	text-indent: 50px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	font-weight: 500;
 }
+.body_news p{
+	text-indent: 30px;
+}
+
+
+
