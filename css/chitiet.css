@@ -68,7 +68,7 @@ font-size: 13px;
 }
 .container_top{
 	display: flex;
-justify-content: flex-start;
+justify-content: space-between;
 }
 .container_left{
 	width: 72%;
@@ -119,10 +119,10 @@ color: #00a888;
 	height: auto;
 	background-color: #fff;
 }
-.container-right{
+.container_right{
 	width: 21%;
 	height: auto;
-margin:auto;
+
 }
 .news{
 	width: 220px;
