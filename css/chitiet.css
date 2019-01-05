@@ -73,8 +73,6 @@ justify-content: flex-start;
 .container_left{
 	width: 72%;
 	height: auto;
-
-	
 }
 .panel_heading{
 	width: 100%;
@@ -121,14 +119,13 @@ color: #00a888;
 	height: auto;
 	background-color: #fff;
 }
-.container_right{
+.container-right{
 	width: 21%;
 	height: auto;
-
-	margin: auto;
+margin:auto;
 }
 .news{
-	width: 100%;
+	width: 220px;
 	height: 350px;
 background-color: #fff;
 padding: 15px 20px;
@@ -162,9 +159,8 @@ color: #ff9900;
 	width: 40px;
 	margin-top: -3px;
 }
-.adv img{
-	width: 300px	;
-	border: 1px solid #dddddd;
+#adv{
+	width: 220px	;
 	
 }
 #adv img{
@@ -196,6 +192,5 @@ color: #ff9900;
 .body_news p{
 	text-indent: 30px;
 }
-
 
 

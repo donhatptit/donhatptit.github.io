@@ -23,8 +23,7 @@ body{
 .container-right{
 	width: 24%;
 	height:auto;
-	margin:auto;
-	
+	margin-left: auto;
 }
 .title_heading{
 	width: 100%;
