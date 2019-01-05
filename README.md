@@ -13,4 +13,7 @@
 ## Link yêu cầu 3
 [Client-trangchu.png](https://donhatptit.github.io/trang-chu.png)
 ## Link yêu cầu 4
-[Client-layout.html](https://donhatptit.github.io/layout.html)
+- [Client-layout.html](https://donhatptit.github.io/layout.html)
+- [Client-chitiet.html](https://donhatptit.github.io/chitiet.html)
+- [Client-category.html](https://donhatptit.github.io/category.html)
+- [Client-soanvan.html](https://donhatptit.github.io/soanvan.html)
