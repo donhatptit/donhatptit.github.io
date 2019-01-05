@@ -31,7 +31,9 @@ body{
 	background-color: #ffaa00;
 
 }
-
+.container-right .adv {
+	padding-top: 50px;
+}
 .next_page a:hover{
 	color: white;
 }
