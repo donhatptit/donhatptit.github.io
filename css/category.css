@@ -6,6 +6,55 @@ body{
 	padding: 0;
 	font-family: Roboto;
 }
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold-webfont.eot');
+    src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Bold-webfont.woff') format('woff'),
+         url('Roboto-Bold-webfont.ttf') format('truetype'),
+         url('Roboto-Bold-webfont.svg#RobotoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium-webfont.eot');
+    src: url('Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Medium-webfont.woff') format('woff'),
+         url('Roboto-Medium-webfont.ttf') format('truetype'),
+         url('Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+ 
+@font-face {
+	font-family: Roboto-Regular;
+	src: url('../fonts/Roboto-Regular.ttf')
+}
+
+@font-face {
+	font-family: Roboto-Medium;
+	src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+	font-family: Roboto-Bold;
+	src: url('../fonts/Roboto-Bold.ttf');
+}
+
 .container{
 	max-width: 1140px;
 	height: auto;
@@ -16,7 +65,7 @@ body{
 	justify-content: space-between;
 }
 .container-left{
-	width: 72%;
+	width: 74%;
 	height: auto;
 
 }
@@ -44,12 +93,14 @@ body{
 	float: right;
 	margin: auto;
 	font-size: 13px;
+		margin-top: 20px;
+		float: right;
 }
 .tab_viewall a{
 	text-decoration: none;
 	color: #00a888;
-	margin-top: 20px;
-	padding-left: 94px;
+
+	
 }
 
 .tab_line:before{
@@ -70,6 +121,7 @@ body{
 	border:1px solid #00a888;
 	cursor: pointer;
 	margin: auto;
+	margin-top: 30px;
 }
 .read_more a{
 	line-height: 25px;
@@ -90,6 +142,45 @@ body{
 .adv {
 	width: 100%;
 }
+.adv img{
+	max-width: 100%;
+}
 .post-content:nth-child(4) {
     opacity: 0.5;
 }
+/*responsive*/
+
+@media screen and (max-width: 768px){
+	#banner{
+		display: none;
+	}
+	.container-right{
+		display: none;
+	}
+	.container-left{
+		width: 100%;
+		padding: 15px;
+	}
+	.title_heading .tab_title{
+		font-size: 25px;
+	}
+	.title_heading .tab_viewall a{
+		padding-left: 48px;
+	}
+	.title-content {
+    margin-left: 0px;
+    margin-right: 0px;}
+    .line-heading{
+    	margin-left: 0;
+    }
+	
+}
+@media screen and (min-width: 769px){
+	.title-content {
+    margin-left: 0px;
+    margin-right: 0px;}
+    .line-heading{
+    	margin-left: 0;
+    }
+}
+/*end responsive*/
