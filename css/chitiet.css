@@ -193,6 +193,7 @@ background-color: #fff;
 .news_content ul li a{
 text-decoration: none;
 color: #58bba4;
+font-size: 15px;
 }
 .news_content ul li a:hover{
 color: #ff9900;

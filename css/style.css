@@ -153,13 +153,12 @@ font-weight: 400;
 }
 .dropdown-menu .ul_dropdown{
 	list-style: none;
-	min-height: 245px;
-
+	width: 100%;
+	line-height: 250px;
 }
 .dropdown-menu .ul_dropdown .column li{
 	line-height: 25px;
 	font-size: 13px;
-	margin-top: 10px;
 	cursor: pointer;
 	border-radius: 15px;
 	border: 1px solid transparent;
@@ -279,9 +278,7 @@ font-weight: 400;
 	color: black;
 	font-weight: 400;
 }
-.title-post a:hover{
-	color: #ff9900;
-}
+
 .btn-group{
 	min-width: 400px;
 	height: 50px;
@@ -325,6 +322,10 @@ font-weight: 400;
 	color: #00a888 ;
 	font-weight: 500;
 }
+.view-all a:hover{
+	text-decoration: underline;
+}
+
 .line-heading:before{
 	content: "";
 	display: block;
@@ -351,8 +352,15 @@ font-weight: 400;
 
 }
 .post-content:hover{
-	border: 2px solid #ff9900;
+	transform: translateZ(3px);
+    box-shadow: 0 0 5px 0.5px #ff9900;
+    cursor: pointer;
 }
+.post-content:hover .title-post a{
+color: #ff9900;
+}
+	
+
 .card-post{
 	max-width: 100%;
 	min-height: 70px;
@@ -499,7 +507,7 @@ font-weight: 400;
 /*footer*/
 .footer{
 	width: 100%;
-	min-height: 160px;
+	height: 190px;
 	background-color: #2f3b4d;
 }
 .logo-ft {
@@ -516,6 +524,7 @@ font-weight: 400;
 	line-height: 40px;
 	border-top: 0.5px solid #444f5f;
 	border-bottom: 0.5px solid #444f5f;
+
 }
 
 .menu-ft ul li{
@@ -536,7 +545,7 @@ font-weight: 400;
 }
 #goto-top{
 	margin-left:-100%;
-	position:fixed;
+	
 	bottom:20px;
 	right:50px;
 	width: 40px;
@@ -544,7 +553,11 @@ font-weight: 400;
 	cursor: pointer;
 	text-align: center;
 	border-radius: 5px;
-	background:rgba(0,0,0,0.1);	
+	opacity: 0.5;	
+	position:fixed;
+}
+#goto-top:hover{
+	background-color: #ff9900;
 }
 @media screen and (min-width: 1025px){
 	.menu-ft ul li{
@@ -656,6 +669,7 @@ font-weight: 400;
 }
 .nav-item:hover .dropdown-menu {
     display: none;
+    padding-top: 0;
 }
 	.layer_opacity{
 		display: none;

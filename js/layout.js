@@ -61,7 +61,7 @@ for (let i = 0; i < nav_item.length; i++) {
 var toTop = document.getElementById("goto-top");
   
   toTop.addEventListener("click", function(){
-  scrollToTop(1000);
+  scrollToTop(500);
 });
 function scrollToTop(scrollDuration) {
     var scrollStep = -window.scrollY / (scrollDuration / 15),
