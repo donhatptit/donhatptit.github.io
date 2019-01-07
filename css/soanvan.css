@@ -83,6 +83,9 @@ body{
 .container-right .adv {
 	padding-top: 50px;
 }
+.next_page:hover a{
+	color: white;
+}
 .next_page a:hover{
 	color: white;
 }
