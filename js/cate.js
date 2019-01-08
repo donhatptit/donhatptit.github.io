@@ -1,10 +1,10 @@
 // ViewMore
 var viewMore = document.getElementsByClassName("read_more");
-var post = document.getElementsByClassName('card-post');
+var post = document.getElementsByClassName('post-content');
 var showPost = document.getElementsByClassName('text_post');
 var hiddenSubject = document.getElementsByClassName('subject');
 var loading = document.getElementsByClassName('loading')[0];
-var pageButton = document.getElementsByClassName('page_link')[0];
+var page_link= document.getElementsByClassName('page_link')[0];
 
 for (let i = 0; i <= 1; i++) {
     viewMore[i].onclick = function() {
@@ -40,7 +40,7 @@ for (let i = 0; i <= 1; i++) {
                 showPost[i].innerHTML += `${postHTML.join("")}`;
                 setTimeout(function() {
                     loading.style.display = 'none';
-                    pageButton.style.display = 'block';
+                    page_link.style.display = 'block';
                 }, 1);
             });
         }, 1300);

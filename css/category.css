@@ -157,6 +157,7 @@ body{
 	border-radius: 50%;
 	background-color: white;
 	cursor: pointer;
+	display: none;
 }
 .next_page a{
 	margin: auto;
@@ -181,6 +182,7 @@ body{
 	color: #00a888;
 	width: 100%;
 	text-align: center;
+	display: none;
 }
 /*responsive*/
 
