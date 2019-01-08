@@ -133,9 +133,10 @@ body{
 .read_more:hover{
 	background-color:#00a888;
 }
-.read_more a:hover{
+.read_more:hover a{
 	color: white;
 }
+
 .subject{
 	padding-bottom: 40px;
 }
@@ -147,6 +148,39 @@ body{
 }
 .post-content:nth-child(4) {
     opacity: 0.5;
+}
+.next_page{
+	display: inline-flex;
+	width: 30px;
+	height: 30px;
+	border:1px solid white;
+	border-radius: 50%;
+	background-color: white;
+	cursor: pointer;
+}
+.next_page a{
+	margin: auto;
+	color: #999999;
+	text-decoration: none;
+}
+.page_link{
+	text-align: center;
+	padding-top: 10px;
+}
+.next_page:hover{
+	background-color: #ffaa00;
+
+}
+.next_page:hover a{
+	color: white;
+}
+.next_page a:hover{
+	color: white;
+}
+.loading{
+	color: #00a888;
+	width: 100%;
+	text-align: center;
 }
 /*responsive*/
 

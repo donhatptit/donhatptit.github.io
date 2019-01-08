@@ -110,6 +110,7 @@ body{
 font-weight: 400;
     border-right: #ffbb33 solid 1px;
     text-align: center;
+    position: relative;
 }
 .menu-primary ul .nav-item a{
 	text-decoration: none;
@@ -222,6 +223,12 @@ font-weight: 400;
 
 /*end dropdown-menu*/
 /*end menu*/
+/*banner*/
+.banner{
+	background-image: url('../images/trang-chu/banner.png');
+	height: 200px;
+}
+/*end banner*/
 @media screen and (min-width: 769px){
 	.header{
 		width: 100%;
