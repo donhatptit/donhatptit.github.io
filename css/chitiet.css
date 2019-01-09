@@ -240,6 +240,8 @@ color: #ff9900;
 }
 .body_news p{
 	text-indent: 30px;
+	text-align: justify;
+	line-height: 20px;
 }
 
 @media screen and (max-width: 768px){
@@ -262,4 +264,7 @@ color: #ff9900;
 	.comment-form{
 		margin-bottom: 20px;
 	}
+	.container{
+		padding-top: 0;
+
 }
