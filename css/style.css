@@ -572,6 +572,7 @@ color: #ff9900;
 	border-radius: 5px;
 	opacity: 0.5;	
 	position:fixed;
+	display: none;
 }
 #goto-top:hover{
 	background-color: #ff9900;

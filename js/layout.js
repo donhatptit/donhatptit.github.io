@@ -64,15 +64,15 @@ for (let i = 0; i < nav_item.length; i++) {
 }
 // Go to Top
 var toTop = document.getElementById("goto-top");
-   // window.onscroll = function(){
-   //  if(document.body.scrollToTop>20 || document.documentElement.scrollToTop >20){
-   //      toTop.style.display = "block";
-   //  }
-   //  else{
+   window.onscroll = function(){
+    if(document.body.scrollTop>20 || document.documentElement.scrollTop >20){
+        toTop.style.display = "block";
+    }
+    else{
 
-   //      toTop.style.display="none";
-   //  }
-   // };
+        toTop.style.display="none";
+    }
+   };
   toTop.addEventListener("click", function(){
 
   scrollToTop(500);
