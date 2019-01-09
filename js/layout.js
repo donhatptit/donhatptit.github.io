@@ -33,6 +33,11 @@ closeButton.onclick = function() {
     layerOpacity.style.marginLeft = "-100%";
     document.getElementsByTagName('body')[0].style.overflow = "unset";
 }
+layerOpacity.onclick = function(){
+   navTag.style.marginLeft = `-${0.7 * document.getElementsByTagName('body')[0].clientWidth}px`;
+    layerOpacity.style.marginLeft = "-100%";
+    document.getElementsByTagName('body')[0].style.overflow = "unset";
+}
 // Mobile: Menu Accordion
 var dropdown_menu = document.getElementsByClassName("dropdown-menu");
 var iconPlus = document.getElementsByClassName("icon-plus");
