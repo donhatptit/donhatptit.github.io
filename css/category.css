@@ -122,18 +122,15 @@ body{
 	cursor: pointer;
 	margin: auto;
 	margin-top: 30px;
-}
-.read_more a{
 	line-height: 25px;
 	text-decoration: none;
 	color: #00a888;
-
+	border-radius: 8px;
 }
+
 
 .read_more:hover{
 	background-color:#00a888;
-}
-.read_more:hover a{
 	color: white;
 }
 
@@ -149,6 +146,7 @@ body{
 .post-content:nth-child(4) {
     opacity: 0.5;
 }
+
 .next_page{
 	display: inline-flex;
 	width: 30px;
@@ -157,7 +155,8 @@ body{
 	border-radius: 50%;
 	background-color: white;
 	cursor: pointer;
-	display: none;
+	
+
 }
 .next_page a{
 	margin: auto;
@@ -166,8 +165,9 @@ body{
 }
 .page_link{
 	text-align: center;
-	padding-top: 10px;
-}
+	display: none;
+padding-bottom: 20px;
+margin-top: -20px;}
 .next_page:hover{
 	background-color: #ffaa00;
 
@@ -183,6 +183,8 @@ body{
 	width: 100%;
 	text-align: center;
 	display: none;
+	margin-top: -20px;
+	padding-bottom: 20px;
 }
 /*responsive*/
 

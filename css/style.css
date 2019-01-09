@@ -158,7 +158,7 @@ font-weight: 400;
 	min-height: 250px;
 }
 .dropdown-menu .ul_dropdown .column li{
-	line-height: 25px;
+	line-height: 30px;
 	font-size: 13px;
 	cursor: pointer;
 	border-radius: 15px;
@@ -184,9 +184,12 @@ font-weight: 400;
 }
 .column{
 	float: left;
-	width: 40%;
+	width: 45%;
 
 
+}
+.column1{
+	width: 10%;
 }
 .d-none {
 	display: none;
@@ -210,7 +213,7 @@ font-weight: 400;
 }
 .number{
 	display: inline-block;
-	font-size: 45px;
+	font-size: 55px;
 	text-align: center;
 	position: absolute;
 	left: 50%;
@@ -226,6 +229,9 @@ font-weight: 400;
 /*banner*/
 .banner{
 	background-image: url('../images/trang-chu/banner.png');
+	    background-position: center;
+    background-size: cover;
+
 	height: 200px;
 }
 /*end banner*/
@@ -469,14 +475,15 @@ color: #ff9900;
 	width: 100%;
 	height: auto;
 	background-color: #ffffff;
-	padding-bottom: 20px;
+	padding-bottom: 25px;
 }
 .content-bottom h2{
 	text-align: center;
 	font-size: 30px;
-	padding: 15px 0;
+	padding: 20px 0;
 	font-weight: 400;
 	color: #333333;
+	padding-bottom: 30px;
 }
 .provider{
 	max-width: 1140px;
@@ -500,14 +507,14 @@ color: #ff9900;
 	font-weight: 420;
 	font-size: 20px;
 	color: #333333;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	text-align: center;
 }
 
 
 .images{
 	text-align: center;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 }
 
 .pr-post p{
@@ -794,7 +801,7 @@ color: #ff9900;
 	}
 	.menu .menu-primary .dropdown-menu{
 		width: 100%;
-		background: #26af92;
+		background: #00a888;
 	}
 	
 	.content-bottom{
@@ -847,10 +854,10 @@ color: #ff9900;
 
 	.menu-name {
 		display: block;
-		background: #26af92;
+		background: #00a888;
 		color: #ffffff;
 		display: flex;
-		padding: 20px 5%;
+		padding: 8px 5%;
 	}
 
 	.menu-name p {
