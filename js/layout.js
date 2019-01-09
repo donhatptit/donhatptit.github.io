@@ -39,9 +39,6 @@ layerOpacity.onclick = function(){
     document.getElementsByTagName('body')[0].style.overflow = "unset";
 }
 // Mobile: Menu Accordion
-var dropdown_menu = document.getElementsByClassName("dropdown-menu");
-var iconPlus = document.getElementsByClassName("icon-plus");
-var iconMinus = document.getElementsByClassName("icon-minus");
 
 for (let i = 0; i < nav_item.length; i++) {
     nav_item[i].addEventListener("click", function() {
@@ -55,7 +52,12 @@ for (let i = 0; i < nav_item.length; i++) {
         }
         
         if(current.classList.contains('active')){
+          current.classList.add('reactive');
+            setTimeout(function() {
+
            current.classList.remove('active'); 
+           current.classList.remove('reactive')
+         },300);
         }
         else {
             current.classList.add('active');
