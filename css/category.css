@@ -144,9 +144,7 @@ body{
 .adv img{
 	max-width: 100%;
 }
-.post-content:nth-child(4) {
-    opacity: 0.5;
-}
+
 
 .next_page{
 	display: inline-flex;

@@ -530,18 +530,23 @@ body{
 	border-bottom: 0.5px solid #444f5f;
 
 }
-
+.menu-ft ul{
+	display: flex;
+justify-content: space-around;
+list-style: none;
+}
 .menu-ft ul li{
-	display: inline;
+	
 	color: #acafb5;
-	padding-right: 47px;
-	font-size: 14px;
+	
+	
 	font-weight: 300;
 	line-height: 60px;
 }
 .menu-ft ul li a{
 	text-decoration: none;
 	color: #acafb5;
+	font-size: 14px;
 
 }
 .menu-ft ul li a:hover{
@@ -564,21 +569,7 @@ body{
 #goto-top:hover{
 	background-color: #ff9900;
 }
-@media screen and (min-width: 1025px){
-	.menu-ft ul li{
-		padding-right: 47px;
-	}
-}
-@media screen and (max-width: 1024px){
-	.menu-ft ul li{
-		padding-right: 36px;
-	}
-}
-@media screen and (max-width: 990px){
-	.menu-ft{
-		display: none;
-	}
-}
+
 /*end footer*/
 /* Fonts */
 @font-face {
