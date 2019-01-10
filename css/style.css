@@ -295,7 +295,10 @@ body{
 .title-post a{
 	text-decoration: none;
 	color: black;
-	font-weight: 400;
+	font-weight: 450;
+	    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .btn-group{
