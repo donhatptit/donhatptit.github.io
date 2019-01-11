@@ -194,9 +194,7 @@ margin-top: -20px;}
 	}
 }
 @media screen and (max-width: 768px){
-	#banner{
-		display: none;
-	}
+	
 	.container-right{
 		display: none;
 	}

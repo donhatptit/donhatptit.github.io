@@ -725,6 +725,7 @@ list-style: none;
 		justify-content: space-around;
 		align-items: center;
 		padding: 5px 0;
+		position: relative;
 	}
 
 	.mobile-header #icon-nav {
