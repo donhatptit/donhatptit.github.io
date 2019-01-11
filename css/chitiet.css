@@ -162,7 +162,7 @@ font-size: 13px;
 color: #00a888;
 }
 .view_favo{
-	width: 30%;	
+	width: 40%;	
 	height: 100%;
 	display: flex;
 	justify-content: flex-end;
@@ -275,10 +275,14 @@ color: #ff9900;
 	}
 }
 @media screen and (max-width: 768px){
-	
+	.title{
+	font-size: 22px;
+}
 	.container_top{
+		width: 95%;
+		margin:auto;
 		display: block;
-		padding: 15px;
+		padding-top: 15px;
 	}
 	.container_left{
 		width: 100%;
