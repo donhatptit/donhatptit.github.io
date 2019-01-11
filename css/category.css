@@ -189,7 +189,7 @@ margin-top: -20px;}
 @media screen and (max-width: 1160px){
 
 	.container, .banner_container{
-		width: 96%;
+		width: 97%;
 		margin: auto;
 	}
 }
@@ -199,8 +199,8 @@ margin-top: -20px;}
 		display: none;
 	}
 	.container-left{
-		width: 100%;
-		padding: 15px;
+		width: 97%;
+		margin: auto;
 	}
 	.title_heading .tab_title{
 		font-size: 25px;

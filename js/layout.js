@@ -33,6 +33,12 @@ closeButton.onclick = function() {
     layerOpacity.style.marginLeft = "-100%";
     document.getElementsByTagName('body')[0].style.overflow = "unset";
 }
+window.onresize = function(){
+    if (window.outerWidth > 769) {
+        navTag.style.removeProperty('margin-left');
+    }
+
+}
 layerOpacity.onclick = function(){
    navTag.style.marginLeft = `-${0.7 * document.getElementsByTagName('body')[0].clientWidth}px`;
     layerOpacity.style.marginLeft = "-100%";
