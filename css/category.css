@@ -186,7 +186,13 @@ margin-top: -20px;}
 	padding-bottom: 20px;
 }
 /*responsive*/
+@media screen and (max-width: 1160px){
 
+	.container, .banner_container{
+		width: 96%;
+		margin: auto;
+	}
+}
 @media screen and (max-width: 768px){
 	#banner{
 		display: none;

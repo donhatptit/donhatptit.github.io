@@ -15,6 +15,8 @@ body{
 	max-width: 1140px;
 	height: 60px;
 	margin: auto;
+	background-color: white;
+	position: relative;
 }
 .header-left{
 	float: left;
@@ -91,6 +93,7 @@ body{
 	line-height: 40px;
 	background-color:#ff9900;
 	font-size: 15px;
+	position: relative;
 }
 .menu-primary{
 	max-width: 1140px;
@@ -645,7 +648,7 @@ list-style: none;
 	src: url('../fonts/Roboto-Bold.ttf');
 }
 
-@media screen and (max-width: 1141px){
+@media screen and (max-width: 1170px){
 
 	.content-1{
 		width: 95%;
@@ -922,6 +925,9 @@ list-style: none;
 
 	.active .icon-minus {
 		display: flex !important;
+	}
+	.menu-ft{
+		display: none;
 	}
 
 }
