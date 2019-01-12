@@ -30,7 +30,6 @@ menuButton.onclick = function() {
 
 closeButton.onclick = function() {
     navTag.style.marginLeft = `-${0.8 * document.getElementsByTagName('body')[0].clientWidth}px`;
-    
     layerOpacity.style.marginLeft = "-100%";
     document.getElementsByTagName('body')[0].style.overflow = "unset";
 }
