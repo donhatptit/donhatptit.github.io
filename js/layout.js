@@ -72,6 +72,32 @@ for (let i = 0; i < nav_item.length; i++) {
     })
 
 }
+window.addEventListener('load', function(ev){
+    setActionIconPlus();
+   })
+function expandSideMenu(des){
+
+    document.getElementById(des).classList.remove('fa-angle-down');
+    document.getElementById(des).classList.add('fa-angle-up');
+
+    document.getElementById(des).onclick = function(){
+     
+        document.getElementById(des).classList.remove('fa-angle-up');
+        document.getElementById(des).classList.add('fa-angle-down');
+        setActionIconPlus();
+    }
+
+
+}
+function setActionIconPlus(){
+    var iconplus = document.getElementsByClassName('sidebar-icon-plus');
+
+    for(var i = 0; i < iconplus.length; ++i){
+        iconplus[i].onclick = function(){
+            expandSideMenu(this.id);
+        }
+    }
+}
 // Go to Top
 var toTop = document.getElementById("goto-top");
    window.onscroll = function(){
