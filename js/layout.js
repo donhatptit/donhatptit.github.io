@@ -45,6 +45,7 @@ layerOpacity.onclick = function(){
     document.getElementsByTagName('body')[0].style.overflow = "unset";
 }
 // Mobile: Menu Accordion
+  
 
 for (let i = 0; i < nav_item.length; i++) {
     nav_item[i].addEventListener("click", function() {
@@ -69,6 +70,7 @@ for (let i = 0; i < nav_item.length; i++) {
             current.classList.add('active');
         }
     })
+
 }
 // Go to Top
 var toTop = document.getElementById("goto-top");
