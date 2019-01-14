@@ -930,13 +930,13 @@ button{
 		}
 
 		100% {
-			height: 374px;
+			height: 400px;
 		}
 	}
 
 	@keyframes growDown {
 		0% {
-			height: 374px;
+			height: 400px;
 		}
 
 		100% {
